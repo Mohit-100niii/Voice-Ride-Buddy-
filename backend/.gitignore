@@ -1,0 +1,63 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# FastAPI specific
+*.db
+instance/
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Byte-compiled / optimized files
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# Local configs
+*.local
+*.config
+
+# dotenv
+*.env
+*.env.*
+
+# Migrations (if using Alembic, uncomment if you don’t want them in git)
+#migrations/
+
+# Node stuff (if your FastAPI project has frontend)
+node_modules/
