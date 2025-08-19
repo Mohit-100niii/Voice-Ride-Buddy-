@@ -37,6 +37,10 @@ app.include_router(auth.router,prefix="/auth")
 app.include_router(payment.router,prefix="/api")
 app.include_router(recentride.router,prefix="/api/get-last-ride")
 app.include_router(myrides.router,prefix="/api")
+
+@app.get("/")
+def ping():
+    return {"ok": True}
 @app.get("/test")
 def read_root():
     return {"message": "🚀 FastAPI backend is working!"}
