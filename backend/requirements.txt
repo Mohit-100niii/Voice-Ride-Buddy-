@@ -5,5 +5,5 @@ httpx
 stripe
 bcrypt
 motor
-jwt
+PyJWT
 pydantic[email]
