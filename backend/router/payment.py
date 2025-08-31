@@ -49,8 +49,8 @@ async def ride_payment(data: PaymentRequest):
                     "quantity": 1,
                 }
             ],
-            success_url="http://localhost:3000/success",
-            cancel_url="http://localhost:3000/cancel",
+            success_url="https://voicerridebuddyai.netlify.app/success",
+            cancel_url="https://voicerridebuddyai.netlify.app/cancel",
             metadata={
                 "pickup": data.pickup,
                 "dropup": data.dropup,
